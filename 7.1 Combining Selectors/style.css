@@ -1,0 +1,20 @@
+/* MULTIPLE SELECTORS */
+h1, h2 {
+    color: blueviolet;
+}
+/* PARENT > CHILD BY 1 GEN*/
+.box > p {
+    color: firebrick;
+}
+/* DESCENDANT = APPLY TO A DESCENDENT OF LEFT SIDE */
+.box .list {
+    color: blue;
+}
+/* SPECIFIC CHAIN = APPLY WHERE ALL SELECTORS ARE TRUE */
+li.done {
+    color: seagreen;
+}
+/* COMBINING SELECTORS: ANCESTOR CHAIN */
+ul p.done{
+    font-size: 0.5rem;
+}
